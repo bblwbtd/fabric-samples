@@ -269,7 +269,7 @@ signing:
          usage:
            - cert sign
            - crl sign
-         expiry: 43800h
+         expiry: 87600h
          caconstraint:
            isca: true
            maxpathlen: 0
@@ -280,7 +280,7 @@ signing:
             - server auth
             - client auth
             - key agreement
-         expiry: 8760h
+         expiry: 87600h
 
 ###########################################################################
 #  Certificate Signing Request (CSR) section.
